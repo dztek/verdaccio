@@ -1,6 +1,7 @@
 import { Router } from 'express';
 import _ from 'lodash';
 
+import { allow } from '@verdaccio/middleware';
 import { convertDistRemoteToLocalTarballUrls } from '@verdaccio/tarball';
 import { Config, Package } from '@verdaccio/types';
 
@@ -14,7 +15,6 @@ import {
   IStorageHandler,
 } from '../../../types';
 import { getByQualityPriorityValue } from '../../../utils/string';
-import { allow } from '../../middleware';
 
 const downloadStream = (
   packageName: string,
@@ -71,7 +71,7 @@ export default function (
   storage: IStorageHandler,
   config: Config
 ): void {
-  const can = allow(auth);
+  const can = allow<IAuth>(auth);
   // TODO: anonymous user?
   route.get(
     '/:package/:version?',
