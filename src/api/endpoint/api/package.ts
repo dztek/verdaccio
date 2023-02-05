@@ -1,7 +1,6 @@
 import { Router } from 'express';
 import _ from 'lodash';
 
-import { allow } from '@verdaccio/middleware';
 import { convertDistRemoteToLocalTarballUrls } from '@verdaccio/tarball';
 import { Config, Package } from '@verdaccio/types';
 
@@ -15,6 +14,7 @@ import {
   IStorageHandler,
 } from '../../../types';
 import { getByQualityPriorityValue } from '../../../utils/string';
+import { allow } from '../../middleware';
 
 const downloadStream = (
   packageName: string,
