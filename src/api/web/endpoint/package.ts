@@ -39,7 +39,6 @@ export type PackcageExt = Package & { author: any; dist?: { tarball: string } };
 function addPackageWebApi(storage: IStorageHandler, auth: IAuth, config: Config): Router {
   const can = allow(auth, {
     beforeAll: (params, message) => {
-      console.log('before all');
       logger.debug(params, message);
     },
     afterAll: (params, message) => logger.debug(params, message),
