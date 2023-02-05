@@ -3172,7 +3172,7 @@ __metadata:
   dependencies:
     "@verdaccio/logger-commons": 6.0.0-6-next.26
     pino: 7.11.0
-  checksum: b74ddd457a6e55cf2bc600abc761a7d25ff7c8f2134c5d297d3e4f6cf231d782c78b01f5dbaa8506cc9cf9cb911989dfe61305ddc308c49ae2a0fed791036e85
+  checksum: 4875dbe4867c15313421d65a7e14e666c277d3eaa9a6f622bc88be276eb62fb7020d97c6a0dcc7197a047231e3fa344297848fbde0564d953f5cb5b270794b05
   languageName: node
   linkType: hard
 
