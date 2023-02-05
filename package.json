@@ -22,7 +22,7 @@
     "@verdaccio/config": "6.0.0-6-next.55",
     "@verdaccio/core": "6.0.0-6-next.55",
     "@verdaccio/local-storage": "10.3.1",
-    "@verdaccio/logger-7": "6.0.0-6-next.2",
+    "@verdaccio/logger-7": "6.0.0-6-next.3",
     "@verdaccio/middleware": "6.0.0-6-next.37",
     "@verdaccio/streams": "10.2.0",
     "@verdaccio/tarball": "11.0.0-6-next.24",
@@ -193,6 +193,9 @@
   },
   "packageManager": "yarn@3.3.1",
   "dependenciesMeta": {
+    "@verdaccio/logger-7@6.0.0-6-next.3": {
+      "unplugged": true
+    },
     "jest@29.3.1": {
       "unplugged": true
     }

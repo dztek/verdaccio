@@ -72,7 +72,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@verdaccio/config", "npm:6.0.0-6-next.55"],\
             ["@verdaccio/core", "npm:6.0.0-6-next.55"],\
             ["@verdaccio/local-storage", "npm:10.3.1"],\
-            ["@verdaccio/logger-7", "npm:6.0.0-6-next.2"],\
+            ["@verdaccio/logger-7", "npm:6.0.0-6-next.3"],\
             ["@verdaccio/middleware", "npm:6.0.0-6-next.37"],\
             ["@verdaccio/streams", "npm:10.2.0"],\
             ["@verdaccio/tarball", "npm:11.0.0-6-next.24"],\
@@ -4936,10 +4936,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@verdaccio/logger-7", [\
-        ["npm:6.0.0-6-next.2", {\
-          "packageLocation": "./.yarn/cache/@verdaccio-logger-7-npm-6.0.0-6-next.2-b9e91224f2-b833da5cc1.zip/node_modules/@verdaccio/logger-7/",\
+        ["npm:6.0.0-6-next.3", {\
+          "packageLocation": "./.yarn/unplugged/@verdaccio-logger-7-npm-6.0.0-6-next.3-656365f804/node_modules/@verdaccio/logger-7/",\
           "packageDependencies": [\
-            ["@verdaccio/logger-7", "npm:6.0.0-6-next.2"],\
+            ["@verdaccio/logger-7", "npm:6.0.0-6-next.3"],\
             ["@verdaccio/logger-commons", "npm:6.0.0-6-next.26"],\
             ["pino", "npm:7.11.0"]\
           ],\
@@ -13941,7 +13941,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@verdaccio/config", "npm:6.0.0-6-next.55"],\
             ["@verdaccio/core", "npm:6.0.0-6-next.55"],\
             ["@verdaccio/local-storage", "npm:10.3.1"],\
-            ["@verdaccio/logger-7", "npm:6.0.0-6-next.2"],\
+            ["@verdaccio/logger-7", "npm:6.0.0-6-next.3"],\
             ["@verdaccio/middleware", "npm:6.0.0-6-next.37"],\
             ["@verdaccio/streams", "npm:10.2.0"],\
             ["@verdaccio/tarball", "npm:11.0.0-6-next.24"],\

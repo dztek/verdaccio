@@ -3166,13 +3166,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@verdaccio/logger-7@npm:6.0.0-6-next.2":
-  version: 6.0.0-6-next.2
-  resolution: "@verdaccio/logger-7@npm:6.0.0-6-next.2"
+"@verdaccio/logger-7@npm:6.0.0-6-next.3":
+  version: 6.0.0-6-next.3
+  resolution: "@verdaccio/logger-7@npm:6.0.0-6-next.3"
   dependencies:
     "@verdaccio/logger-commons": 6.0.0-6-next.26
     pino: 7.11.0
-  checksum: b833da5cc1aae98e5d32fcda9a0853790275df0a8f1da5e69888827f3492c08b23a122f656d238a8aec29cc4daca45493e4f17c5ff4c5019cea688bbd0c43d73
+  checksum: b74ddd457a6e55cf2bc600abc761a7d25ff7c8f2134c5d297d3e4f6cf231d782c78b01f5dbaa8506cc9cf9cb911989dfe61305ddc308c49ae2a0fed791036e85
   languageName: node
   linkType: hard
 
@@ -10966,7 +10966,7 @@ __metadata:
     "@verdaccio/config": 6.0.0-6-next.55
     "@verdaccio/core": 6.0.0-6-next.55
     "@verdaccio/local-storage": 10.3.1
-    "@verdaccio/logger-7": 6.0.0-6-next.2
+    "@verdaccio/logger-7": 6.0.0-6-next.3
     "@verdaccio/middleware": 6.0.0-6-next.37
     "@verdaccio/streams": 10.2.0
     "@verdaccio/tarball": 11.0.0-6-next.24
@@ -11038,6 +11038,8 @@ __metadata:
     verdaccio-htpasswd: 10.5.2
     verdaccio-memory: 10.3.0
   dependenciesMeta:
+    "@verdaccio/logger-7@6.0.0-6-next.3":
+      unplugged: true
     jest@29.3.1:
       unplugged: true
   bin:
