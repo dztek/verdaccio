@@ -6,6 +6,7 @@ import { convertDistRemoteToLocalTarballUrls } from '@verdaccio/tarball';
 import { Config, Package } from '@verdaccio/types';
 
 import { API_ERROR, DIST_TAGS, HEADERS } from '../../../lib/constants';
+import { logger } from '../../../lib/logger';
 import { ErrorCode, getVersion } from '../../../lib/utils';
 import {
   $NextFunctionVer,
