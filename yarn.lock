@@ -3166,13 +3166,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@verdaccio/logger-7@npm:6.0.0-6-next.5-1":
-  version: 6.0.0-6-next.5-1
-  resolution: "@verdaccio/logger-7@npm:6.0.0-6-next.5-1"
+"@verdaccio/logger-7@npm:6.0.0-6-next.5-2":
+  version: 6.0.0-6-next.5-2
+  resolution: "@verdaccio/logger-7@npm:6.0.0-6-next.5-2"
   dependencies:
     "@verdaccio/logger-commons": 6.0.0-6-next.25
     pino: 7.11.0
-  checksum: 9303f05283afaad6447c18e7ff09d2acf4ef2b7268edf7600834ce18fabc25820dd2ad68d73f73a38e828bf8dc570ed9fd7f4040cfcf6e296b753a53e1714cc6
+  checksum: de2793efda825093343835d37a070cc4fa7c2b78bc8137872fa2b147ca2dbbdb6edc5260053e4d57f584747fcceacfc9cc385f28b0b03d95b9b5158fcba2fb4f
   languageName: node
   linkType: hard
 
@@ -3201,16 +3201,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@verdaccio/middleware@npm:6.0.0-6-next.36-1":
-  version: 6.0.0-6-next.36-1
-  resolution: "@verdaccio/middleware@npm:6.0.0-6-next.36-1"
+"@verdaccio/middleware@npm:6.0.0-6-next.36-2":
+  version: 6.0.0-6-next.36-2
+  resolution: "@verdaccio/middleware@npm:6.0.0-6-next.36-2"
   dependencies:
     "@verdaccio/core": 6.0.0-6-next.57
     "@verdaccio/utils": 6.0.0-6-next.25
     debug: 4.3.4
     lodash: 4.17.21
     mime: 2.6.0
-  checksum: 9cea847877692fc11050962a79652892aac169229d4e7349debca42761c78dc00d002780bb4646c4826d9ca6912210d0c8eb9149e8746d268700686916d38487
+  checksum: d4d563ab250b65cf0faf9a094c38d4dceca4c3c2975ce222630dc5dfe63aa32d386e2a9b555623615212d979eb860b072a916a09c037a05fe3d6214b2f43e84f
   languageName: node
   linkType: hard
 
@@ -10966,8 +10966,8 @@ __metadata:
     "@verdaccio/config": 6.0.0-6-next.55
     "@verdaccio/core": 6.0.0-6-next.55
     "@verdaccio/local-storage": 10.3.1
-    "@verdaccio/logger-7": 6.0.0-6-next.5-1
-    "@verdaccio/middleware": 6.0.0-6-next.36-1
+    "@verdaccio/logger-7": 6.0.0-6-next.5-2
+    "@verdaccio/middleware": 6.0.0-6-next.36-2
     "@verdaccio/streams": 10.2.0
     "@verdaccio/tarball": 11.0.0-6-next.24
     "@verdaccio/types": 10.7.0
