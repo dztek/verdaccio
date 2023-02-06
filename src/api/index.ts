@@ -3,7 +3,7 @@ import cors from 'cors';
 import express, { Application } from 'express';
 import _ from 'lodash';
 
-import { errorReportingMiddleware, final, handleError } from '@verdaccio/middleware';
+import { errorReportingMiddleware, handleError } from '@verdaccio/middleware';
 import { Config as IConfig, IPluginMiddleware, IPluginStorageFilter } from '@verdaccio/types';
 
 import Auth from '../lib/auth';
@@ -22,7 +22,7 @@ import {
 } from '../types';
 import hookDebug from './debug';
 import apiEndpoint from './endpoint';
-import { log, serveFavicon } from './middleware';
+import { final, log, serveFavicon } from './middleware';
 import web from './web';
 import webAPI from './web/api';
 
